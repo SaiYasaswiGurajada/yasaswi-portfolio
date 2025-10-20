@@ -31,7 +31,7 @@ export default function Hero(){
             {/* <a href="/resume.pdf" className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-br from-accent to-accent-2 px-4 py-2 text-white shadow-soft">
               <Download size={16}/> Resume
             </a> */}
-            <a href={`${import.meta.env.BASE_URL}Yasaswi_Resume.pdf`} download className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-br from-accent to-accent-2 px-4 py-2 text-white shadow-soft">
+            <a href={`${import.meta.env.BASE_URL}resume.pdf`} download className="inline-flex items-center gap-2 rounded-xl bg-gradient-to-br from-accent to-accent-2 px-4 py-2 text-white shadow-soft">
             <Download size={16}/> Resume
             </a>
             <a href={profile.links.github} target="_blank" className="glass px-4 py-2 inline-flex items-center gap-2"> <Github size={16}/> GitHub </a>
@@ -48,7 +48,7 @@ export default function Hero(){
         </div>
 
         <motion.div initial={{opacity:0, scale:.96}} animate={{opacity:1, scale:1}} transition={{delay:.1, duration:.5}} className="glass p-4">
-          <img src={`${import.meta.env.BASE_URL}Headshot.JPG`} alt="Headshot" />
+          <img src={`${import.meta.env.BASE_URL}avatar.jpg`} alt="Headshot" />
           <div className="mt-3 text-center text-sm text-muted">Hyderabad, India · Open to remote/hybrid</div>
         </motion.div>
       </div>
