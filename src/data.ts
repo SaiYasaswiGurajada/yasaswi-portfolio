@@ -14,9 +14,12 @@ export const profile = {
 
 export const skills = [
   "Java", "Spring Boot", "REST APIs", "Microservices", "Python", "Angular", "TypeScript",
-  "SQL", "Redis", "Elasticsearch", "Docker", "Kubernetes",
-  "Azure DevOps", "GCP", "GitHub", "Gradle", "Maven"
-]
+  "JavaScript", "Node.js", "SQL", "MySQL", "Postgres", "Redis", "Elasticsearch", 
+  "Docker", "Kubernetes", "Azure DevOps", "GCP", "GitHub", "Jenkins", "ArgoCD", 
+  "Gradle", "Maven", "LangChain", "CrewAI", "Azure AI Search", "LLM Integration", 
+  "RAG", "AI Workflow Automation", "IntelliJ IDE", "Postman", "Swagger", "Figma", 
+  "CheckMarx", "JFrog"
+];
 
 export const projects = [
   {
